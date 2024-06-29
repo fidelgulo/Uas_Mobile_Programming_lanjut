@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               CalculatorButton(
                 backgroundColor: Colors.white,
-                foregroundColor: Color.fromRGBO(0, 0, 0, 1),
+          const foregroundColor: Color.fromRGBO(0, 0, 0, 1),
                 text: '7',
                 onTap: () {
                   pressNumber(7);
